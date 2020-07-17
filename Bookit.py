@@ -28,7 +28,11 @@ if choice==1:
 
   stat=input('Enter the station code :  ')
   t=input('Enter the train number : ')
-  apikey="guqzuxis9j"
+  
+#   please insert you api key
+  apikey=" "
+  
+  
   url=f"https://api.railwayapi.com/v2/live/train/{t}/station/{stat}/date/{dd}-{mm}-{yyyy}/apikey/guqzuxis9j/"
 
   info7=requests.get(url)
