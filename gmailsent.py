@@ -6,8 +6,8 @@ sm.ehlo()
 sm.starttls()
 
 
-email="alexanderritik@gmail.com"
-password="aejojqixkfvbguco"
+email=" @gmail.com"
+password=" "
 
 sm.login(user=email,password=password)
 
